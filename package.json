@@ -1,0 +1,28 @@
+{
+  "name": "gulptest",
+  "version": "0.0.1",
+  "description": "gulp test",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmaximini/gulptest.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tmaximini/gulptest/issues"
+  },
+  "dependencies": {
+    "gulp-uglify": "~0.2.0",
+    "gulp": "~3.5.2",
+    "gulp-imagemin": "~0.1.5"
+  },
+  "devDependencies": {
+    "gulp-rename": "~0.2.2",
+    "gulp-uglify": "~0.2.0",
+    "gulp-concat": "~2.1.7"
+  }
+}
