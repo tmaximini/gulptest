@@ -23,6 +23,7 @@
   "devDependencies": {
     "gulp-rename": "~0.2.2",
     "gulp-uglify": "~0.2.0",
-    "gulp-concat": "~2.1.7"
+    "gulp-concat": "~2.1.7",
+    "gulp-size": "~0.1.2"
   }
 }

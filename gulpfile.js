@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
+var size = require('gulp-size');
 var pkg = require('./package.json');
 
 gulp.task('build', function () {
@@ -10,5 +11,6 @@ gulp.task('build', function () {
     .pipe(gulp.dest('./dist'))
     .pipe(rename(pkg.name + '.min.js'))
     .pipe(uglify())
+    .pipe(size())
     .pipe(gulp.dest('./dist'));
 });
